@@ -2,7 +2,7 @@
 import Product from "./components/Product";
 // import { Menu, Transition } from "@headlessui/react";
 // import { Fragment, useEffect, useRef, useState } from "react";
-// import { ChevronDownIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon, ShoppingCartIcon, UserIcon } from "@heroicons/react/solid";
 
 const product = () => {
 	const productDetail = [];
@@ -51,14 +51,13 @@ function App() {
 					</div>
 					<div className="flex">
 						<input type="text" className="placeholder:italic placeholder:text-slate-500 w-auto px-2 py-1 border rounded-xl bg-gray-50 shadow-md shadow-gray-100" placeholder="search here..."></input>
-						{/* <i className="bi bi-search"></i> */}
 					</div>
 					<div className="flex gap-4">
 						<a href="/about" className="hover:tetx-green-200">
-							<i className="bi bi-person"></i>
+							<UserIcon className="h-4 w-4 ml-2 mt-2"></UserIcon>
 						</a>
 						<a href="/about">
-							<i className="bi bi-cart"></i>
+							<ShoppingCartIcon className="h-4 w-4 ml-2 mt-2"></ShoppingCartIcon>
 						</a>
 					</div>
 				</div>
@@ -68,32 +67,50 @@ function App() {
 						<ul className="flex gap-10 font-semibold">
 							<li>
 								<a href="/about">
-									Iphone <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Iphone
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 							<li>
 								<a href="/about">
-									Samsung <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Samsung
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 							<li>
 								<a href="/about">
-									Oppo <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Oppo
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 							<li>
 								<a href="/about">
-									Realmi <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Realmi
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 							<li>
 								<a href="/about">
-									Redmi <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Redmi
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 							<li>
 								<a href="/about">
-									Xiomi <i className="bi bi-chevron-down text-xs"></i>
+									<span className="flex">
+										Xiaomi
+										<ChevronDownIcon className="h-4 w-4 ml-2 mt-2"></ChevronDownIcon>
+									</span>
 								</a>
 							</li>
 						</ul>
