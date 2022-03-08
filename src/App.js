@@ -44,58 +44,60 @@ function App() {
 				</div>
 			</div>
 
-			<div className="flex justify-between my-4">
-				<div className="">
-					<h1 className="text-2xl font-bold">MyShop</h1>
+			<div className="">
+				<div className="flex justify-between my-4">
+					<div className="">
+						<h1 className="text-2xl font-bold">MyShop</h1>
+					</div>
+					<div className="flex">
+						<input type="text" className="placeholder:italic placeholder:text-slate-500 w-auto px-2 py-1 border rounded-xl bg-gray-50 shadow-md shadow-gray-100" placeholder="search here..."></input>
+						{/* <i className="bi bi-search"></i> */}
+					</div>
+					<div className="flex gap-4">
+						<a href="/about" className="hover:tetx-green-200">
+							<i className="bi bi-person"></i>
+						</a>
+						<a href="/about">
+							<i className="bi bi-cart"></i>
+						</a>
+					</div>
 				</div>
-				<div className="flex">
-					<input type="text" className="placeholder:italic placeholder:text-slate-500 w-96 px-2 py-1 border rounded-xl bg-gray-50 shadow-md shadow-gray-100" placeholder="search here..."></input>
-					{/* <i className="bi bi-search"></i> */}
-				</div>
-				<div className="flex gap-4">
-					<a href="/about" className="hover:tetx-green-200">
-						<i className="bi bi-person"></i>
-					</a>
-					<a href="/about">
-						<i className="bi bi-cart"></i>
-					</a>
-				</div>
-			</div>
 
-			<div className="flex justify-center my-4 bg-gray-50 py-2">
-				<div className="">
-					<ul className="flex gap-40 font-semibold">
-						<li>
-							<a href="/about">
-								Iphone <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-						<li>
-							<a href="/about">
-								Samsung <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-						<li>
-							<a href="/about">
-								Oppo <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-						<li>
-							<a href="/about">
-								Realmi <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-						<li>
-							<a href="/about">
-								Redmi <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-						<li>
-							<a href="/about">
-								Xiomi <i className="bi bi-chevron-down text-xs"></i>
-							</a>
-						</li>
-					</ul>
+				<div className="flex justify-center my-4 bg-gray-50 py-2">
+					<div className="">
+						<ul className="flex gap-10 font-semibold">
+							<li>
+								<a href="/about">
+									Iphone <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+							<li>
+								<a href="/about">
+									Samsung <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+							<li>
+								<a href="/about">
+									Oppo <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+							<li>
+								<a href="/about">
+									Realmi <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+							<li>
+								<a href="/about">
+									Redmi <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+							<li>
+								<a href="/about">
+									Xiomi <i className="bi bi-chevron-down text-xs"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 
