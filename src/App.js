@@ -17,7 +17,7 @@ function App() {
 		<div className="container mx-auto">
 			<div className="flex justify-between border-b border-grey-600 py-2 text-sm bg-white dark:bg-black">
 				<div className="flex gap-8 ">
-					<a href="" className="text-lime-500 hover:text-lime-600">
+					<a href="/about" className="text-lime-500 hover:text-lime-600">
 						Chat with us
 					</a>
 					<p>+62 811 2222 444</p>
@@ -26,17 +26,17 @@ function App() {
 				<div className="">
 					<ul className="flex gap-8 text-lime-500 ">
 						<li>
-							<a className="hover:text-lime-600" href="">
+							<a className="hover:text-lime-600" href="/about">
 								About
 							</a>
 						</li>
 						<li>
-							<a className="hover:text-lime-600" href="">
+							<a className="hover:text-lime-600" href="/about">
 								Blog
 							</a>
 						</li>
 						<li>
-							<a className="hover:text-lime-600" href="">
+							<a className="hover:text-lime-600" href="/about">
 								Career
 							</a>
 						</li>
@@ -53,10 +53,10 @@ function App() {
 					{/* <i className="bi bi-search"></i> */}
 				</div>
 				<div className="flex gap-4">
-					<a href="" className="hover:tetx-green-200">
+					<a href="/about" className="hover:tetx-green-200">
 						<i className="bi bi-person"></i>
 					</a>
-					<a href="">
+					<a href="/about">
 						<i className="bi bi-cart"></i>
 					</a>
 				</div>
@@ -66,32 +66,32 @@ function App() {
 				<div className="">
 					<ul className="flex gap-40 font-semibold">
 						<li>
-							<a href="">
+							<a href="/about">
 								Iphone <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/about">
 								Samsung <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/about">
 								Oppo <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/about">
 								Realmi <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/about">
 								Redmi <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/about">
 								Xiomi <i className="bi bi-chevron-down text-xs"></i>
 							</a>
 						</li>
@@ -200,7 +200,7 @@ function App() {
 						</div>
 						<div className="flex justify-between font-semibold gap-4">
 							<button className="flex text-sm text-white font-bold bg-lime-600 border-solid border-2 border-lime-800 rounded-lg px-4 py-1 hover:bg-lime-700">Apply</button>
-							<a className="text-sm text-red-500 font-semibold " href="">
+							<a className="text-sm text-red-500 font-semibold " href="/about">
 								Reset
 							</a>
 						</div>
@@ -219,16 +219,16 @@ function App() {
 					<h3 className="font-bold my-4 font-semibold">Get in touch</h3>
 					<ul className="text-sm text-lime-500 my-4">
 						<li className="my-4">
-							<a href="">About Us</a>
+							<a href="/about">About Us</a>
 						</li>
 						<li className="my-4">
-							<a href="">Blogs</a>
+							<a href="/about">Blogs</a>
 						</li>
 						<li className="my-4">
-							<a href="">Careers</a>
+							<a href="/about">Careers</a>
 						</li>
 						<li className="my-4">
-							<a href="">Press Realeses</a>
+							<a href="/about">Press Realeses</a>
 						</li>
 					</ul>
 				</div>
@@ -236,16 +236,16 @@ function App() {
 					<h3 className="font-bold my-4 font-semibold">Connections</h3>
 					<ul className="text-sm text-lime-500 my-4">
 						<li className="my-4">
-							<a href="">Facebook</a>
+							<a href="/about">Facebook</a>
 						</li>
 						<li className="my-4">
-							<a href="">Instagram</a>
+							<a href="/about">Instagram</a>
 						</li>
 						<li className="my-4">
-							<a href="">Youtube</a>
+							<a href="/about">Youtube</a>
 						</li>
 						<li className="my-4">
-							<a href="">Linkedin</a>
+							<a href="/about">Linkedin</a>
 						</li>
 					</ul>
 				</div>
@@ -253,13 +253,13 @@ function App() {
 					<h3 className="font-bold my-4 font-semibold">Earnings</h3>
 					<ul className="text-sm text-lime-500 my-4">
 						<li className="my-4">
-							<a href="">Become an Affiliate</a>
+							<a href="/about">Become an Affiliate</a>
 						</li>
 						<li className="my-4">
-							<a href="">Advertise Your Product</a>
+							<a href="/about">Advertise Your Product</a>
 						</li>
 						<li className="my-4">
-							<a href="">Sell on Market</a>
+							<a href="/about">Sell on Market</a>
 						</li>
 					</ul>
 				</div>
@@ -267,19 +267,19 @@ function App() {
 					<h3 className="font-bold my-4 ">Accounts</h3>
 					<ul className="text-sm text-lime-500 my-4">
 						<li className="my-4">
-							<a href="">Your Accounts</a>
+							<a href="/about">Your Accounts</a>
 						</li>
 						<li className="my-4">
-							<a href="">Return Center</a>
+							<a href="/about">Return Center</a>
 						</li>
 						<li className="my-4">
-							<a href="">100% Purchase Protenction</a>
+							<a href="/about">100% Purchase Protenction</a>
 						</li>
 						<li className="my-4">
-							<a href="">Chat with us</a>
+							<a href="/about">Chat with us</a>
 						</li>
 						<li className="my-4">
-							<a href="">Help</a>
+							<a href="/about">Help</a>
 						</li>
 					</ul>
 				</div>
@@ -289,7 +289,7 @@ function App() {
 				<div className="justify-center">
 					<p className="text-sm my-4 justify-center">
 						Copyright &copy; 2022 :
-						<a href="" className="text-lime-600 hover:text-lime-700">
+						<a href="/about" className="text-lime-600 hover:text-lime-700">
 							&nbsp;Mukhtasar
 						</a>
 						<span> - All Right Reserved</span>
