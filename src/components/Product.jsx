@@ -3,7 +3,7 @@ const Product = () => {
 		<div className="">
 			<div className="border rounded-lg p-2 m-4 shadow-lg">
 				<div className="">
-					<img className="border rounded-lg h-40 w-48" src="/images/a52.jpg" alt="sg-a52"></img>
+					<img className="border rounded-lg h-40 w-48" src="images/a52.JPG" alt="sg-a52"></img>
 					<h2 className="font-semibold text-sm my-2">Samsung Galaxy A52</h2>
 					<p className="text-xs my-2">Awesome camera</p>
 				</div>
