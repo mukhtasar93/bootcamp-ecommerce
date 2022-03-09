@@ -9,7 +9,7 @@ const Product = () => {
 				</div>
 				<div className="flex justify-between">
 					<h2 className="font-semibold text-sm my-1">5.500.000,-</h2>
-					<button className="flex text-sm text-white font-bold bg-lime-500 border border-solid border-2 border-lime-600 rounded-xl px-2 py-1 hover:bg-lime-600">Buy Now</button>
+					<button className="flex text-sm text-white font-bold bg-sky-500 border border-solid border-1 border-sky-600 rounded-xl px-2 py-1 hover:bg-sky-600">Buy Now</button>
 				</div>
 				<p className="text-xs line-through">6.200.000,-</p>
 			</div>
