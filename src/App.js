@@ -207,7 +207,9 @@ function App() {
 						<div className="font-semibold my-2 py-2 mt-6">
 							<h2>Price</h2>
 						</div>
-						<div className=""></div>
+						<div className="">
+							<input type="range" min="100000" max="10000000" step="50000"></input>
+						</div>
 						<div className="flex justify-between font-semibold mb-1">
 							<p className="text-xs">Min</p>
 							<p className="text-xs">Max</p>
